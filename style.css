@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.hero {
+    background-image: url('./img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: cover;
+    padding: 2em 0;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+h1 {
+    display: inline-block;
+    padding: .25em .5em;
+    background-color: #457B9D;
+    margin: 0 auto 0.5em;
+}
+
+.hero-description {
+    margin: 0 auto;
+    font-size: .85rem;
+    width: 55%;
+    background-color: #1D3357;
+    padding: .5em .5em;
+}
+
+.activities-section {
+    background-color: #F1FAEE;
+    padding: 1em 1em 2em 1em;
+}
+
+.activities-container {
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    gap: 2em;
+}
+
+
+.activity {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.activity-img {
+    width: 175px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.75em;
+}
+
+.guide-container {
+    width: 90%;
+    margin: 2em auto;
+    padding: .75em;
+    background: #A8DADC;
+    border-bottom: 5px solid #457B9D;
+    border-radius: 5px;
+    gap: .5em;
+}
+
+.guide-img-container img {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.guide-info {
+    flex-direction: column;
+    gap: .5em;  
+}
+
+.guide-info-quote {
+    font-style: italic;
+}
+
+.guide-info-name {
+    font-weight: 700;
+}
