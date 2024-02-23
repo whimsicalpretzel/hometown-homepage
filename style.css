@@ -68,7 +68,7 @@ h2 {
 }
 
 .guide-container {
-    width: 90%;
+    max-width: 90%;
     margin: 2em auto;
     padding: .75em;
     background: #A8DADC;
